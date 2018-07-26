@@ -1,0 +1,281 @@
+/*font-family: 'Courgette',
+cursive;*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #bfbcbc;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* Contrer les float */
+
+.clear {
+    clear: both;
+}
+
+a,
+h1,
+h2,
+h3,
+button {
+    font-family: 'Courgette', cursive;
+    text-decoration: none!important;
+}
+
+p,
+span {
+    font-family: Arial, cursive;
+}
+
+.preHeader {
+    height: 45px;
+    /* Hauteur de la ligne */
+    line-height: 45px;
+    vertical-align: middle;
+    background-color: white;
+    -moz-box-shadow: 0px 5px 10px 0px #bfbcbc;
+    -webkit-box-shadow: 0px 5px 10px 0px #bfbcbc;
+    -o-box-shadow: 0px 5px 10px 0px #bfbcbc;
+    box-shadow: 0px 5px 10px 0px #bfbcbc;
+}
+
+
+/* Mes liens */
+
+.preHeader a {
+    padding: 0 10px;
+    color: #bfbcbc;
+    /* Toutes mes animations dure 0.2 secondes */
+    transition-duration: 0.2s;
+}
+
+.preHeader a:hover {
+    color: #212121;
+}
+
+.linkContainer {
+    float: right;
+    margin-right: 7%;
+}
+
+header {
+    background-color: white;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 120px;
+}
+
+.logo {
+    width: 80px;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.menu {
+    float: right;
+}
+
+.link {
+    color: #bfbcbc;
+    vertical-align: middle;
+    padding: 20px;
+    transition-duration: 0.2s;
+}
+
+.link:hover,
+.link.active {
+    color: #00b376;
+}
+
+.banner {
+    min-height: 230px;
+    position: relative;
+    background: url('../images/banner.png');
+}
+
+footer {
+    margin-top: 1.5%;
+    min-height: 230px;
+    position: relative;
+    background: url('../images/banner.png');
+}
+
+.bannerText {
+    color: white;
+}
+
+.bannerText h1 {
+    font-size: 40px;
+    margin-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.bannerText h2 {
+    font-family: Arial, cursive;
+    font-style: italic;
+    margin-left: 20%;
+}
+
+.mainBlock {
+    background-color: white;
+    margin: 30px auto;
+    padding: 4%;
+    margin-bottom: 0px!important;
+}
+
+.secondBlock {
+    background-color: white;
+    padding: 4%;
+    padding-bottom: 7%;
+    margin-bottom: 0px!important;
+}
+
+.H3Title {
+    color: #00b578;
+    margin-bottom: 110px;
+}
+
+.H3TitleArticle {
+    color: #00b578;
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+.img-videos {
+    margin-bottom: 20px;
+}
+
+.H4Title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.articleTitle {
+    margin-top: 10px;
+    margin-bottom: 10%;
+    color: orange;
+    font-weight: bold;
+}
+
+.articleText {
+    line-height: 40px;
+}
+
+.img-article {
+    width: 250px;
+}
+
+.btnShowIt {
+    padding: 1%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background-color: #000000;
+    color: white;
+}
+
+.Participation {
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+.participationText {
+    line-height: 30px;
+}
+
+.participationTitle {
+    margin-bottom: 3%;
+    color: #00b578;
+}
+
+.buttonParticipation1 {
+    margin-bottom: 40px!important;
+}
+
+.buttonArticle {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.newsletter {
+    background-color: #00b376;
+    padding: 10px;
+}
+
+.newsletterTitle {
+    color: white;
+    text-align: center;
+}
+
+.threeImageLeft {
+    float: left;
+    text-align: center;
+}
+
+.threeImageRight {
+    float: right;
+    text-align: center;
+}
+
+.formContact {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.Contact {
+    padding-top: 1.5%;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 2.5%;
+}
+
+.arbreOne {
+    height: 110px;
+    margin-bottom: -15px!important;
+}
+
+.arbreTwo {
+    height: 90px;
+    margin-bottom: -17px!important;
+}
+
+.monkey {
+    height: 80px;
+    width: 100px;
+    margin-bottom: -35px!important;
+}
+
+.buttonMail {
+    background-color: #00bc9e;
+    border-left: 2px solid black;
+}
+
+.formNewsletterBlock {
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
