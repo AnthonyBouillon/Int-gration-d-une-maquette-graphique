@@ -34,7 +34,7 @@ span {
 }
 
 .preHeader {
-    height: 45px;
+    min-height: 45px;
     /* Hauteur de la ligne */
     line-height: 45px;
     vertical-align: middle;
@@ -71,12 +71,28 @@ header {
 .header {
     width: 80%;
     margin: 0 auto;
-    height: 120px;
+    min-height: 120px;
     line-height: 120px;
 }
+@media screen and (max-width: 610px) {
+    .header {
+        width: 100%;
+        margin: 0 auto;
+        min-height: 100px;
+        line-height: 50px;
+    }
+    .logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 975px) {
 
+    .logo{
+        display: none;
+    }
+}
 .logo {
-    width: 80px;
+    width: 100px;
     padding: 15px;
     vertical-align: middle;
 }
@@ -265,6 +281,19 @@ footer {
     width: 100px;
     margin-bottom: -35px!important;
 }
+@media screen and (max-width: 768px) {
+    .arbreOne {
+        display: none;
+    }
+
+    .arbreTwo {
+        display: none;
+    }
+
+    .monkey {
+        display: none;
+    }
+}
 
 .buttonMail {
     background-color: #00bc9e;
@@ -278,4 +307,7 @@ footer {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.imageSocial{
+    width: 190px;
 }
